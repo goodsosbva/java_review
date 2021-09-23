@@ -3,9 +3,9 @@ package first.InheritancePractice;
 public class CustomerTest1 {
 
 	public static void main(String[] args) {
-		  VIPCustomer customerKim = new VIPCustomer();  // ÇÏÀ§ Å¬·¡½º »ı¼º
+		  VIPCustomer customerKim = new VIPCustomer();  // í•˜ìœ„ í´ë˜ìŠ¤ ìƒì„±
 		  customerKim.setCustomerID(10020);
-		  customerKim.setCustomerName("±èÀ¯½Å");
+		  customerKim.setCustomerName("ê¶Œí˜„ì„±");
 		  customerKim.bonusPoint = 10000;
 		  System.out.println(customerKim.showCustomerInfo());
 
