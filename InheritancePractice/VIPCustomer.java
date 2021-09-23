@@ -10,7 +10,7 @@ public class VIPCustomer extends Customer {
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
-		System.out.println("VIPCusomer() »ı¼ºÀÚ È£Ãâ");
+		System.out.println("VIPCusomer() ìƒì„œì í˜¸ì¶œ");
 	}
 	
 	public VIPCustomer(int customerID, String customerName, int agentID){
@@ -19,7 +19,7 @@ public class VIPCustomer extends Customer {
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
 		this.agentID = agentID;
-		System.out.println("VIPCusomer(int, String) »ı¼ºÀÚ È£Ãâ");
+		System.out.println("VIPCusomer(int, String) ìƒì„±ì í˜¸ì¶œ");
 	}
 	
 	public int calcPrice(int price){
