@@ -10,7 +10,7 @@ public class VIPCustomer extends Customer {
 		customerGrade = "VIP";
 		bonusRatio = 0.05;
 		saleRatio = 0.1;
-		System.out.println("VIPCusomer() 생서자 호출");
+		System.out.println("VIPCusomer() 생성자 호출");
 	}
 	
 	public VIPCustomer(int customerID, String customerName, int agentID){
